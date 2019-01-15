@@ -1,0 +1,48 @@
+body{
+	width: 50em;
+    margin: auto;
+    border: 3px solid black;
+}
+
+.main{
+	text-align: center;
+	color: blue;
+}
+
+.under{
+	color:red;
+}
+
+.imagine{
+	color: red;
+}
+
+.text{
+	color: blue;
+}
+.list{
+	color: green;
+}
+
+.elvis{
+	color:red;
+}
+
+.lorem{
+	border: 2px solid blue;
+	width: 40em;
+
+}
+.ipsum{
+	color:blue;
+	text-align: center;
+}
+
+.text2{
+	margin:40px;
+	text-align: center;
+}
+
+.dummy{
+	margin:20px;
+}
