@@ -2,6 +2,7 @@ body{
 	width: 50em;
     margin: auto;
     border: 3px solid black;
+    padding:2em;
 }
 
 .main{
