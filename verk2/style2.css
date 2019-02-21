@@ -1,0 +1,100 @@
+* {
+	box-sizing: border-box;
+}
+
+body{
+	padding: 2em;
+	margin: 1em 10em;
+}
+
+a:hover {
+	font-size:150%;
+}
+
+.box_model{
+	border: 3px solid green;
+}
+
+.box_class{
+	color: red;
+	border: 3px solid green;
+}
+
+.box_model2{
+	color: blue;
+	border: 3px dashed blue;
+	padding: 1em;
+}
+
+div{
+	border: 3px solid red;
+	padding: 2em;
+	margin-bottom: 2em;
+}
+
+.display_block li{
+	display: block;
+	border: 3px dashed green;
+	padding: 1em;
+	margin: 1em;
+}
+
+.display_inline li{
+	display:inline;
+	border: 3px dashed blue;
+	padding: 1em;
+	margin: 1em;
+
+}
+
+.inline_block li{
+	display: inline-block;
+	border: 3px dashed red;
+	padding: 1em;
+	margin: 1em;
+}
+.verk2_3{
+	background-color: grey;
+	text-align: right;
+	}
+
+header,
+section,
+aside,
+footer {
+	border: 2px solid black;
+}
+section{
+  float: left;
+  width: 50%;
+  padding:1em;
+}
+aside {
+  float: right;
+  width: 50%;
+  padding: 1em;
+}
+footer {
+  clear: both;
+  margin-bottom: 0;
+  padding: 1em;
+}
+
+.bigl{
+	padding: 0.3em;
+	font-size: 4em;
+	float: left;
+}
+
+.mynd{
+	max-width: 70%;
+	padding: 0.3em;
+	float: right;
+	border-radius: 25px;
+
+}
+
+.ekki{
+	background-color: yellow;
+	text-align: center;
+}
