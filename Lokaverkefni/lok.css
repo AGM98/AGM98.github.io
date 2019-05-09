@@ -1,0 +1,152 @@
+* {
+    scroll-behavior: smooth;
+  }
+  
+  body{
+    margin: 0;
+    font-family: Sans-serif;
+  }
+  header{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: fixed;
+    width: 100%;
+    background-color: #002D8A;
+  }
+  .anchor_home{
+    display: flex;
+    align-items: center;
+  }
+  .head_text {
+    text-align: center;
+    margin: 0 0 0 5px;
+    color: white;
+    /*text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;*/
+  }
+  .navbar{
+      direction: ltr;
+      display: flex;
+  }
+  .navbar > a{
+    flex:1 1 auto;
+    text-align:center;
+    margin: 0;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+  }
+  aside{
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-image: url("fifa2.jpeg");
+    height: 100vh;
+  }
+  .title{
+    text-align: center;
+  }
+  .text{
+    text-align: center;
+    padding: 1em;
+    margin: 0;
+  }
+  .fifa{
+    max-width: 50%;
+    margin: auto;
+    display: block;
+    margin-bottom: 1em;
+  }
+  .thumb{
+    display: block;
+    margin: auto;
+    margin-bottom: 1em;
+  }
+  .line{
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    bottom: 0;
+  }
+  .video{
+    margin: auto;
+    display: block;
+    margin-top: 1em;
+  }
+  .article{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+  }
+  .rev_text{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    padding-left: 15px;
+    border-left: 3px solid #ccc;
+  }
+  footer{
+    background-color: #1D262D; 
+    display: grid;
+    width: 100%;
+    margin-top: 2em;
+  }
+  .name{
+    font-family: Raleway,sans-serif;
+    color: #869FB2;
+    text-align: center;
+  }
+  .top_site{
+    position:fixed;
+    right:10px;
+    bottom:10px;
+    cursor:pointer;
+    width:35px;
+    height:35px;
+    border-radius:50px;
+  }
+  .top_site > span{
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-left:-8px;
+    margin-top:-12px;
+    height:0;
+    width:0;
+    border:8px solid transparent;
+    border-bottom-color:#ffffff;
+  }
+  
+
+  @media screen and (min-width: 48em){
+
+    .container{
+      max-width: 50em;
+      margin: auto;
+    }
+    .title{
+      margin: 2em;
+    }
+    .line{
+      margin-top: 3em;
+      margin-bottom: 3em;
+    }
+    .video_section{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+    .rev_text{
+      margin: 1em;
+    }
+  }
+
+  @media screen and (min-width: 60em){
+    .top_site:hover{
+      transform: scale(1.5);
+    }
+    .navbar > a:hover {
+      background-color: #E50067 ;
+    }
+  }
+  
+  
