@@ -20,3 +20,8 @@
 4. 	Hvað er útgáfustýring (*Version Control*)? 
 
 	- kerfi sem afritar breytingar á skjölum svo þú getir endurkallað ákveðnar útgáfur seinna meir.
+
+5.	Hverjir eru helstu kostir við að nota GIT?
+
+	- Helstu kostrinir eru að spara tíma og handavinnu.
+
