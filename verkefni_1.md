@@ -25,3 +25,7 @@
 
 	- Helstu kostrinir eru að spara tíma og handavinnu.
 
+6.	Hversu oft telur þú að eigi að gera færslur (*commit*) í verkefni?
+
+	- hvert skipti sem eth breytist mikið
+
