@@ -5,3 +5,8 @@
 	* ls - listar allt inní því directory sem þú ert staddur í.
 	* pwd - stendur fyrir "print working directory" og segir þér hvaða directory þú ert í.
 	* mkdir - stendur fyrir "make directory" og býr til nýtt directory.
+
+2. Hvað gera eftirfarandi Git skipanir?
+	* git clone - gerir copy af git repository.
+	* git status - sýnir stöðuna á wd, hvaða breytingar hafa verið gerðar og hvaða skjöl git er að tracka.
+	* git diff - sýnir munin á tveimur skjölum línu fyrir línu.
