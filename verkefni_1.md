@@ -10,3 +10,9 @@
 	* git clone - gerir copy af git repository.
 	* git status - sýnir stöðuna á wd, hvaða breytingar hafa verið gerðar og hvaða skjöl git er að tracka.
 	* git diff - sýnir munin á tveimur skjölum línu fyrir línu.
+
+3. Hvað gera eftirfarandi Git skipanir saman? Hvaða gagn er að þeirri aðgerð?
+	* git log - sýnir commit history.
+	* git checkout - uppfærir skjölin í wd í sömu útgáfu og branchinu.
+	* git branch - listar branches.
+	  - þessar skipanir saman leyfa þér að ferðast milla branches og sjá hvar þú ert staddur.
