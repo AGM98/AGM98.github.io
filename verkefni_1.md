@@ -29,3 +29,7 @@
 
 	- hvert skipti sem eth breytist mikið
 
+7.	Hvað er átt við með *"Working Directory"*?" og *"Staging Area"* í GIT?
+
+	- frá workintg directory er notað "git add ." til þess að setja breytingar í staging area sem er svæði á milli wd og repository. Svo
+	er notað "git commit" til þessa að færa fra staging arean í repository.
