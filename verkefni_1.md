@@ -16,3 +16,7 @@
 	* git checkout - uppfærir skjölin í wd í sömu útgáfu og branchinu.
 	* git branch - listar branches.
 	  - þessar skipanir saman leyfa þér að ferðast milla branches og sjá hvar þú ert staddur.
+
+4. 	Hvað er útgáfustýring (*Version Control*)? 
+
+	- kerfi sem afritar breytingar á skjölum svo þú getir endurkallað ákveðnar útgáfur seinna meir.
