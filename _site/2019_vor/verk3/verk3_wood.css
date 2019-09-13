@@ -1,0 +1,204 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 40px;
+  background-image: url("https://previews.123rf.com/images/gretalorenz/gretalorenz1403/gretalorenz140300001/26526189-abstract-stars-background-on-yellow-and-orange-bright-gradient.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
+}
+
+header {
+  grid-area: header;
+  text-align: center;
+  background-image: url("http://2.bp.blogspot.com/-5kUoXKJFqXI/UScnpWiMChI/AAAAAAAAR6I/Eey9imWOTlc/s1600/etr.jpeg");
+  }
+
+nav {
+  grid-area: nav;
+  border-radius: 5px;
+  direction: ltr;
+  display: flex;
+  }
+
+nav2 {
+  grid-area: nav2;
+  border-radius: 5px;
+  direction: ltr;
+  display: flex;
+}
+
+nav > a,
+nav2 > a{
+  flex:1 1 auto;
+  text-align:center;
+  background-color: grey;
+  margin: 0;
+  padding: 5px;
+  color: gold;
+  font-family: Sans-serif;
+  font-size: 130%;
+  text-decoration: none;
+  }
+
+nav > a:hover,
+nav2 > a:hover,
+footer > a:hover {
+  background-color: #111;
+  }
+    
+aside{
+  grid-area: aside;
+  padding: 1em;
+  line-height: 1.5;
+  background-image: url("http://starkovtattoo.spb.ru/images/300/DSC100332019.png");
+  background-size: cover;
+  }
+   
+article{
+  grid-area: article;
+  padding: 1em;
+  line-height: 1.5;
+  background-image: url("https://image.freepik.com/free-vector/dark-red-stage-curtain_23-2147496813.jpg");
+  background-size: cover;
+  }
+
+aside > p,
+aside > h2,
+article > p,
+article > h2{
+  color: white;
+}
+
+right{
+  grid-area: right;
+  background-color: #383742;
+  text-align: center;
+}
+
+right > h1{
+  margin: 2px;
+  font-family: Sans-serif; 
+}
+
+main{
+  grid-area: main;
+  direction: ltr;
+  display: flex;
+  background-color: #383742;
+  }
+
+main > p{
+  flex: 1 auto;
+  position: relative;
+  margin: 0;
+  text-align: center;
+}
+
+footer > a{
+  flex:1 1 auto;
+  text-align:center;
+  background-color: grey;
+  margin: 0;
+  padding: 5px;
+  color: gold;
+  font-family: Sans-serif;
+  font-size: 130%;
+  text-decoration: none;
+  }
+    
+footer {
+  grid-area: footer;
+  display: flex;
+  }
+
+.wrapper > div,
+           header,
+           article,
+           aside{
+           border: 1px solid black;
+          }
+
+.wrapper {
+    border: 2px solid black;
+    display: grid;
+    grid-gap: 0em;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      "header header"
+      "nav nav2"
+      "aside article"
+      "right right"
+      "main main "
+      "footer footer"
+    }
+
+.head{
+  font-size: 500%;
+  margin: 20px;
+  color: #ffbf00;
+  font-family: Sans-serif;
+}
+
+article > h2,
+aside > h2
+main{
+  text-align: center;
+}
+
+.mynd{
+  max-width: 30%;
+  padding: 1em;
+  float: right;
+  border-radius: 25px;
+
+}
+
+.mynd_2{
+  max-width: 30%;
+  padding: 1em;
+  float: left;
+  border-radius: 25px;
+}
+
+.trailer{
+  color: red;
+  font-size: 2em;
+  text-decoration: underline;
+}
+
+.myndir{
+  max-width: 40%;
+  margin: 1em;
+  padding: 0;
+  border: 6px solid #f5de50;
+  border-radius: 25px;
+}
+
+.play{
+  position: absolute;
+  width: 50px;
+  height: 50px; 
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.play:hover {
+    opacity: 0;
+}
+
+p,
+h2{
+  font-family: Sans-serif;
+}
+
+article > h2,
+aside > h2{
+  height: 1.5em;
+  text-align: center;
+}
+

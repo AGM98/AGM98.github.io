@@ -1,3 +1,8 @@
+---
+layout: default
+title: About
+---
+
 # verkefni 1
 
 1. Hvað gera eftirfarandi Linux skipanir?

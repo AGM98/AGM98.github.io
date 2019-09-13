@@ -1,0 +1,135 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 40px;
+  background-image: url("https://previews.123rf.com/images/punphoto/punphoto1203/punphoto120300094/12753800-green-grass-background-texture.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+header {
+  grid-area: header;
+  text-align: center;
+  background-color: #14805e;
+  border: 1px solid black;
+}
+
+.head{
+  font-size: 500%;
+  margin: 20px;
+  color: gold;
+  font-family:  Impact, Charcoal, sans-serif ;
+}
+  
+nav {
+  grid-area: nav;
+  border-radius: 5px;
+  direction: ltr;
+  display: flex;
+}
+
+nav > a{
+  flex:1 1 auto;
+  text-align:center;
+  background-color: #545454;
+  margin: 0;
+  padding: 5px;
+  color: white;
+  font-family:  Impact, Charcoal, sans-serif ;
+  font-size: 130%;
+  text-decoration: none;
+}
+
+nav > a:hover {
+  background-color: #727272;
+}
+    
+ul > li{
+  text-align: center;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  background-color: #a3a3a3;
+}
+
+ul{
+  padding: 0;
+  margin: 0;
+  border: 1px solid black;
+}
+
+article{
+  grid-area: article;
+  padding: 1em;
+  line-height: 2;
+  border: 1px solid black;
+  background-color: #a3a3a3;
+  }
+
+article > h1{
+  text-align: center;
+  font-size: 3em;
+  margin: 16px;
+  font-family:  Impact, Charcoal, sans-serif ;
+}
+
+.kante{
+  max-width: 300px;
+} 
+
+article > span{
+  float: right;
+  padding: 1.5em;
+}     
+
+footer > div{
+  flex:1 1 auto;
+  text-align: center;
+  margin: 0;
+  text-decoration: underline;
+  color: white;
+  background-color: #545454;
+}
+    
+footer {
+  grid-area: footer;
+  display: flex;
+  padding: 10px;
+  background-color: #545454;
+}
+
+.wrapper {
+    border: 2px solid black;
+    display: grid;
+    grid-gap: 0em;
+    grid-template-columns: 1fr 2fr 2fr;
+    grid-template-areas:
+     "header header header "
+        "nav nav nav"
+        "aside article article"
+        "footer footer footer"
+     }
+
+.link{
+  position:relative;
+  color: white;
+  text-decoration:none;
+  display:inline-block;
+}
+
+.link_img{
+  border:none;
+  vertical-align:bottom;
+}
+
+.title{
+  position:absolute;width:100%;
+  bottom:0;
+  left:0;
+  padding:0.5em 1em;
+  background:rgba(0, 0, 0, 0.6);
+}
+
+

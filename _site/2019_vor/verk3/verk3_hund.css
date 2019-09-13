@@ -1,0 +1,130 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 40px;
+  background-image: url("https://cdn1.vectorstock.com/i/1000x1000/07/55/bones-background-pattern-icon-vector-12820755.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+header {
+  grid-area: header;
+  text-align: center;
+  border: 1px solid black;
+  background-color: #4ABDAC;
+}
+    
+.head{
+  margin: 0;
+  font-size: 600%;
+  font-family: 'Dekko';
+ }
+
+nav {
+  grid-area: nav;
+  border-radius: 5px;
+  direction: ltr;
+  display: flex;
+  background-color: #F7B733;
+}
+
+nav > a{
+  flex:1 1 auto;
+  text-align:center;
+  margin: 0;
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  color: black;
+  border: 1px solid black;
+  font-family: 'Dekko';
+}
+
+nav > a:hover{
+  background-color: #6bb728;
+}
+
+article {
+  grid-area: article;
+  padding: 1em;
+  line-height: 2;
+  border: 1px solid black;
+  background-color: #DFDCE3;
+}
+
+.mynd_text{
+  text-align: center;
+  font-family: 'Dekko';
+  font-size: 2em;
+}
+
+.myndir{
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+.myndir:hover{
+  content: url("https://i3.cpcache.com/product/699196288/error_404_dog_not_found_dog_tshirt.jpg?side=Front&color=White&height=460&width=460&qv=90");
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+    
+aside{
+  grid-area: aside;
+  padding: 1em;
+  line-height: 2;
+  border: 1px solid black;
+  font-family: 'Dekko';
+  background-color: #DFDCE3;
+}
+
+ i{
+  float: right;
+  padding: 0.2em;
+}
+
+aside2{
+  grid-area: aside2;
+  padding: 1em;
+  line-height: 2;
+  border: 1px solid black;
+  font-family: 'Dekko';
+  background-color: #DFDCE3;
+}
+        
+footer > div{
+  flex:1 1 auto;
+  text-align: center;
+  margin: 5px:;
+  text-decoration: underline;
+  }
+    
+footer {
+  grid-area: footer;
+  display: flex;
+  padding: 10px;
+  background-color: #F7B733;
+  }
+
+.wrapper {
+    border: 2px solid black;
+    display: grid;
+    grid-gap: 0em;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-areas:
+     "header header header "
+        "nav nav nav"
+        "article aside2 aside2 "
+        "article aside aside"
+        "footer footer footer"
+     }
+
+h2{
+  text-align: center;
+}
+

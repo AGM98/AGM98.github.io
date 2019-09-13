@@ -1,0 +1,60 @@
+I"�<h1 id="verkefni-1">verkefni 1</h1>
+
+<ol>
+  <li>Hvað gera eftirfarandi Linux skipanir?
+    <ul>
+      <li>cd - stendur fyrir “change directory” og breytir hvaða directory þú ert í.</li>
+      <li>ls - listar allt inní því directory sem þú ert staddur í.</li>
+      <li>pwd - stendur fyrir “print working directory” og segir þér hvaða directory þú ert í.</li>
+      <li>mkdir - stendur fyrir “make directory” og býr til nýtt directory.</li>
+    </ul>
+  </li>
+  <li>Hvað gera eftirfarandi Git skipanir?
+    <ul>
+      <li>git clone - gerir copy af git repository.</li>
+      <li>git status - sýnir stöðuna á wd, hvaða breytingar hafa verið gerðar og hvaða skjöl git er að tracka.</li>
+      <li>git diff - sýnir munin á tveimur skjölum línu fyrir línu.</li>
+    </ul>
+  </li>
+  <li>Hvað gera eftirfarandi Git skipanir saman? Hvaða gagn er að þeirri aðgerð?
+    <ul>
+      <li>git log - sýnir commit history.</li>
+      <li>git checkout - uppfærir skjölin í wd í sömu útgáfu og branchinu.</li>
+      <li>git branch - listar branches.
+        <ul>
+          <li>þessar skipanir saman leyfa þér að ferðast milla branches og sjá hvar þú ert staddur.</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p>Hvað er útgáfustýring (<em>Version Control</em>)?</p>
+
+    <ul>
+      <li>kerfi sem afritar breytingar á skjölum svo þú getir endurkallað ákveðnar útgáfur seinna meir.</li>
+    </ul>
+  </li>
+  <li>
+    <p>Hverjir eru helstu kostir við að nota GIT?</p>
+
+    <ul>
+      <li>Helstu kostrinir eru að spara tíma og handavinnu.</li>
+    </ul>
+  </li>
+  <li>
+    <p>Hversu oft telur þú að eigi að gera færslur (<em>commit</em>) í verkefni?</p>
+
+    <ul>
+      <li>hvert skipti sem eth breytist mikið</li>
+    </ul>
+  </li>
+  <li>
+    <p>Hvað er átt við með <em>“Working Directory”</em>?” og <em>“Staging Area”</em> í GIT?</p>
+
+    <ul>
+      <li>frá workintg directory er notað “git add .” til þess að setja breytingar í staging area sem er svæði á milli wd og repository. Svo
+er notað “git commit” til þessa að færa fra staging arean í repository.</li>
+    </ul>
+  </li>
+</ol>
+:ET
