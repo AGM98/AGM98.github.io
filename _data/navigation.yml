@@ -1,7 +1,5 @@
 - name: Home
   link: /
-- name: verkefni_1
-  link: /verkefni_1.html
 - name: Blog
   link: /blog.html
 - name: Staff

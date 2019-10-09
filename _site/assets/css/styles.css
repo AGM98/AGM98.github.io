@@ -1,5 +1,13 @@
-.current { color: green; }
+.nav { direction: ltr; display: flex; }
 
-h1 { color: red; }
+.nav > a { flex: 1 1 auto; text-align: center; margin: 0; text-decoration: none; padding: 10px; color: black; background-color: #0099cc; border-right: 1px solid white; font-size: 90%; }
+
+.nav > a:hover { background-color: #9ed2e4; }
+
+.nav > a:last-child { border: none; }
+
+body { max-width: 50em; margin: 0 auto; }
+
+.headers { text-align: center; }
 
 /*# sourceMappingURL=styles.css.map */
