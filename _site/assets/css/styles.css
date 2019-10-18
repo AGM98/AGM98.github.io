@@ -1,13 +1,47 @@
-.nav { direction: ltr; display: flex; }
+body { margin: 0 auto; padding: 0; max-width: 80%; background-color: #d6d6d6; }
 
-.nav > a { flex: 1 1 auto; text-align: center; margin: 0; text-decoration: none; padding: 10px; color: black; background-color: #0099cc; border-right: 1px solid white; font-size: 90%; }
+.titles { text-align: center; padding: 1em; font-family: arial,sans-serif; }
 
-.nav > a:hover { background-color: #9ed2e4; }
+.header { display: grid; width: 70em; margin: auto; }
 
-.nav > a:last-child { border: none; }
+nav { display: flex; flex-direction: row; margin: auto; }
 
-body { max-width: 50em; margin: 0 auto; }
+nav > a { text-align: center; margin: 1em 2em; padding: 0; text-decoration: none; color: black; }
 
-.headers { text-align: center; }
+nav > a:hover { color: #CA1212; }
+
+a { color: black; font-family: arial,sans-serif; margin: auto; }
+
+.links { font-family: arial,sans-serif; font-size: 120%; }
+
+.split1, .split2 { position: absolute; top: 0; left: 0; height: 100vh; width: 100%; display: block; }
+
+.split1 { -webkit-clip-path: polygon(0 0, 100% 0, 100% 100vh); clip-path: polygon(0 0, 100% 0, 100% 100vh); background: #d6d6d6; z-index: -1; }
+
+.split2 { -webkit-clip-path: polygon(0 0, 0 100vh, 100% 100vh); clip-path: polygon(0 0, 0 100vh, 100% 100vh); background: #212121; z-index: -1; }
+
+.blogs { width: 40%; margin: auto; background-color: #faf8f8; height: 100vh; }
+
+.blogLinks, .staffLinks { text-align: center; }
+
+.blogList, .staffList { margin: 1em; padding: 0; text-align: center; list-style: none; }
+
+.staff { width: 40%; margin: auto; background-color: #faf8f8; height: 100vh; }
+
+.image { position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); }
+
+.line { border: 0; height: 1px; background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0)); bottom: 0; }
+
+.wrapper { display: flex; padding: 0; margin: 0; list-style: none; }
+
+@font-face { font-family: 'icomoon'; src: url("../fonts/icomoon.eot?ftwe02"); src: url("../fonts/icomoon.eot?ftwe02#iefix") format("embedded-opentype"), url("../fonts/icomoon.ttf?ftwe02") format("truetype"), url("../fonts/icomoon.woff?ftwe02") format("woff"), url("../fonts/icomoon.svg?ftwe02#icomoon") format("svg"); font-weight: normal; font-style: normal; font-display: block; }
+
+[class^="icon-"], [class*=" icon-"] { /* use !important to prevent issues with browser extensions that change fonts */ font-family: 'icomoon' !important; speak: none; font-style: normal; font-weight: normal; font-variant: normal; text-transform: none; line-height: 1; /* Better Font Rendering =========== */ -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+
+.icon-home:before { content: "\e900"; }
+
+.icon-pencil:before { content: "\e905"; }
+
+.icon-users:before { content: "\e972"; }
 
 /*# sourceMappingURL=styles.css.map */
