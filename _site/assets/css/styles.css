@@ -1,8 +1,8 @@
-body { margin: 0 auto; padding: 0; max-width: 80%; background-color: #d6d6d6; }
+body { margin: 0 auto; padding: 0; background-color: #d6d6d6; max-width: 80%; }
 
 .titles { text-align: center; padding: 1em; font-family: arial,sans-serif; }
 
-.header { display: grid; width: 70em; margin: auto; }
+.header { direction: ltr; display: flex; }
 
 nav { display: flex; flex-direction: row; margin: auto; }
 
@@ -34,14 +34,61 @@ a { color: black; font-family: arial,sans-serif; margin: auto; }
 
 .wrapper { display: flex; padding: 0; margin: 0; list-style: none; }
 
+@media screen and (max-width: 48em) { .wrapper { max-width: 50em; margin: auto; }
+  .body { max-width: 50em; margin: 0; } }
+
 @font-face { font-family: 'icomoon'; src: url("../fonts/icomoon.eot?ftwe02"); src: url("../fonts/icomoon.eot?ftwe02#iefix") format("embedded-opentype"), url("../fonts/icomoon.ttf?ftwe02") format("truetype"), url("../fonts/icomoon.woff?ftwe02") format("woff"), url("../fonts/icomoon.svg?ftwe02#icomoon") format("svg"); font-weight: normal; font-style: normal; font-display: block; }
 
-[class^="icon-"], [class*=" icon-"] { /* use !important to prevent issues with browser extensions that change fonts */ font-family: 'icomoon' !important; speak: none; font-style: normal; font-weight: normal; font-variant: normal; text-transform: none; line-height: 1; /* Better Font Rendering =========== */ -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+[class^="icon-"], [class*=" icon-"] { /* use !important to prevent issues with browser extensions that change fonts */ font-family: 'icomoon' !important; font-style: normal; font-weight: normal; font-variant: normal; text-transform: none; line-height: 1; /* Better Font Rendering =========== */ -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
 
 .icon-home:before { content: "\e900"; }
 
 .icon-pencil:before { content: "\e905"; }
 
 .icon-users:before { content: "\e972"; }
+
+.icon-table:before { content: "\ea70"; }
+
+.auglysing { width: 15em; height: 30em; background-color: red; animation-name: acolor; animation-duration: 5s; justify-content: center; align-items: center; align-content: center; text-align: center; margin-top: 5em; padding: .5em; border-radius: .4em; box-shadow: inset 0 0 3em #999; overflow: hidden; }
+
+.hallo { animation-name: example, forecolor; animation-duration: 5s; position: relative; padding: 1em; }
+
+.image_aug { position: relative; max-width: 150px; max-height: 150px; }
+
+@keyframes forecolor { 0% { color: green; }
+  25% { color: blue; }
+  50% { color: yellow; }
+  100% { color: red; } }
+
+@keyframes acolor { 0% { background-color: red; }
+  25% { background-color: yellow; }
+  50% { background-color: blue; }
+  100% { background-color: green; } }
+
+/* Standard syntax */
+@keyframes example { 0% { left: 250px;
+    top: 0px; }
+  100% { left: 0px;
+    top: 0px; } }
+
+body { font-family: "Open Sans", sans-serif; line-height: 1.25; }
+
+table { border: 1px solid #ccc; border-collapse: collapse; margin: 0; padding: 0; width: 100%; table-layout: fixed; }
+
+table caption { font-size: 1.5em; margin: .5em 0 .75em; }
+
+table tr { background-color: #f8f8f8; border: 1px solid #ddd; padding: .35em; }
+
+table th, table td { padding: .625em; text-align: center; }
+
+table th { font-size: .85em; letter-spacing: .1em; text-transform: uppercase; }
+
+@media screen and (max-width: 600px) { table { border: 0; }
+  table caption { font-size: 1.3em; }
+  table thead { border: none; clip: rect(0 0 0 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; width: 1px; }
+  table tr { border-bottom: 3px solid #ddd; display: block; margin-bottom: .625em; }
+  table td { border-bottom: 1px solid #ddd; display: block; font-size: .8em; text-align: right; }
+  table td::before { content: attr(data-label); float: left; font-weight: bold; text-transform: uppercase; }
+  table td:last-child { border-bottom: 0; } }
 
 /*# sourceMappingURL=styles.css.map */

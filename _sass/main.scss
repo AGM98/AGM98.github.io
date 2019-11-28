@@ -1,8 +1,8 @@
  body{
   margin: 0 auto;
   padding:0;
-  max-width: 80%;
   background-color: #d6d6d6;
+  max-width: 80%;
  }
 .titles{
   text-align: center;
@@ -10,9 +10,8 @@
   font-family: arial,sans-serif;
 }
 .header{
-  display: grid;
-  width: 70em;
-  margin: auto
+  direction: ltr;
+  display: flex;
 }
 nav{
   display: flex;
@@ -102,3 +101,19 @@ a{
   list-style: none;
 }
 
+
+@media screen and (max-width: 48em){
+
+  .wrapper{
+    max-width: 50em;
+    margin: auto;
+  }
+  .body{
+    max-width: 50em;
+    margin: 0;
+  }
+  .header{
+
+  }
+
+}

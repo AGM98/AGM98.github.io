@@ -4,3 +4,5 @@
   link: /blog.html
 - name: <span class="icon-users"></span> Staff
   link: /staff.html
+- name: <span class="icon-table"></span> Töflur
+  link: /toflur.html
