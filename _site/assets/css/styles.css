@@ -71,6 +71,12 @@ a { color: black; font-family: arial,sans-serif; margin: auto; }
   100% { left: 0px;
     top: 0px; } }
 
+.button { display: inline-block; padding: 15px 25px; font-size: 24px; cursor: pointer; text-align: center; text-decoration: none; outline: none; color: #fff; background-color: #4CAF50; border: none; border-radius: 15px; box-shadow: 0 9px #999; margin-top: 3em; }
+
+.button:hover { background-color: #3e8e41; }
+
+.button:active { background-color: #3e8e41; box-shadow: 0 5px #666; transform: translateY(4px); }
+
 body { font-family: "Open Sans", sans-serif; line-height: 1.25; }
 
 table { border: 1px solid #ccc; border-collapse: collapse; margin: 0; padding: 0; width: 100%; table-layout: fixed; }
@@ -90,5 +96,15 @@ table th { font-size: .85em; letter-spacing: .1em; text-transform: uppercase; }
   table td { border-bottom: 1px solid #ddd; display: block; font-size: .8em; text-align: right; }
   table td::before { content: attr(data-label); float: left; font-weight: bold; text-transform: uppercase; }
   table td:last-child { border-bottom: 0; } }
+
+.dalkur { position: fixed; top: 50%; left: 50%; margin-top: -18em; margin-left: -10em; border: 1px solid #ccc; background-color: #f3f3f3; display: flex; flex-direction: column; }
+
+.val { margin: 0; text-align: center; align-content: center; margin-left: 8em; }
+
+.val_dalkar { margin: 1em; padding-bottom: 2em; display: flex; flex-direction: row; text-align: center; }
+
+.text { margin: 0; }
+
+.submit { font-size: 2em; margin: auto; margin-bottom: 1em; }
 
 /*# sourceMappingURL=styles.css.map */
